@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "136186340258",
+    "firebase_url": "https://textxtract772101.firebaseio.com",
+    "project_id": "textxtract772101",
+    "storage_bucket": "textxtract772101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136186340258:android:a5e770d4f7b86f14bd48fb",
+        "android_client_info": {
+          "package_name": "loginn.com.textxtract"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136186340258-m2pgo7f3042fnrgsds8thn875mk8j738.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "loginn.com.textxtract",
+            "certificate_hash": "eb1f8561522e513806e6fb6431990f5b292041eb"
+          }
+        },
+        {
+          "client_id": "136186340258-c2p6eii67meej97i42hri0s5u02bntsj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "loginn.com.textxtract",
+            "certificate_hash": "8c34ee5f775e28668e616d52fa56dce55d2eca3f"
+          }
+        },
+        {
+          "client_id": "136186340258-7ebko752g08f4bmk0nah2qrreb4n6d88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrNAayPV2qNoRpnA5-MrjiquaWkyhDsMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136186340258-7ebko752g08f4bmk0nah2qrreb4n6d88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TextXtract</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="facebook_application_id" translatable="false">520279045494095</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb520279045494095</string>
+    <string name="action_gallery">Gallery</string>
+    <string name="permission_request">This app need to access files on your device.</string>
+    <string name="no_text">No text found</string>
+</resources>

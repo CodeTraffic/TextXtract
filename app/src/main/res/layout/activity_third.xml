@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/s22">
+
+
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="92dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="286dp"
+            android:layout_marginBottom="83dp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="290dp"
+            android:layout_marginBottom="49dp"
+            android:text="TextXtract"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="118dp"
+            android:layout_marginBottom="50dp"
+            android:text="Text Scanning |Extracting"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="39dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="244dp"
+            android:layout_marginBottom="7dp"
+            android:text="Contact"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="485dp"
+        android:drawableLeft="@drawable/icon1"
+        android:text=" email"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="454dp"
+        android:text="textXtract@gmail.com"
+        android:textSize="21dp" />
+
+    <TextView
+        android:layout_width="171dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="385dp"
+        android:drawableLeft="@drawable/icon2"
+        android:text=" phone"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="342dp"
+        android:text="7721015454"
+        android:textSize="21dp" />
+
+
+</RelativeLayout>
+

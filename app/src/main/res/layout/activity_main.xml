@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+
+
+
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img4"
+        android:orientation="vertical">
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/fragment_container"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/lb2"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="109dp"
+
+
+                android:layout_marginTop="672dp"
+                android:layout_marginEnd="107dp"
+                android:layout_marginBottom="50dp"
+                android:background="@color/fui_transparent"
+                android:text="SignOut"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lh1"
+                android:layout_width="153dp"
+                android:layout_height="98dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="200dp"
+                android:layout_marginBottom="609dp"
+                android:text="Text"
+                android:textColor="#FF9333"
+                android:textSize="50sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/lh2"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="154dp"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="163dp"
+                android:layout_marginBottom="625dp"
+                android:text="X"
+                android:textColor="#F7E8DA"
+                android:textSize="60sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/lh3"
+                android:layout_width="161dp"
+                android:layout_height="110dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="189dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginBottom="595dp"
+                android:text="tract"
+                android:textColor="#F7E8DA"
+                android:textSize="50sp"
+                android:textStyle="bold"></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/header"
+        android:layout_width="250dp"
+        android:layout_height="800dp"
+        android:background="@color/white"
+        app:itemTextColor="@color/darkgray"
+
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start">
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
